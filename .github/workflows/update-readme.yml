@@ -43,5 +43,5 @@ jobs:
 
       - name: Push changes using PAT
         run: |
-          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/maplemap/maplemap.git
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/heartpolik/heartpolik.git
           git push origin main
