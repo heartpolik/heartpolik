@@ -9,11 +9,7 @@ const HEADERS = {
 	Accept: 'application/vnd.github.v3+json',
 };
 
-const EXCLUDED_REPOS = new Set([
-	'uk.javascript.info',
-	'form-validator-module',
-	'iframe-action-communicator',
-]);
+const EXCLUDED_REPOS = new Set([]);
 
 const getDateWeeksAgo = (weeks) => {
 	const date = new Date();
@@ -30,19 +26,6 @@ async function fetchRepos() {
 	if (!response.ok) {
 		console.error('❌ Failed to fetch repositories:', response.statusText);
 		return [];
-	}
-
-	return await response.json();
-}
-
-async function fetchLanguages(repo) {
-	if (!repo.languages_url) return null;
-
-	const response = await fetch(repo.languages_url, { headers: HEADERS });
-
-	if (!response.ok || !response.headers.get('content-type')?.includes('application/json')) {
-		console.warn(`⚠️ Failed to fetch languages for ${repo.name}`);
-		return null;
 	}
 
 	return await response.json();
@@ -84,20 +67,12 @@ async function fetchCodeFrequency(repo) {
 
 async function getRepoStats() {
 	const repos = await fetchRepos();
-	const languageStats = {};
 	let recentUpdates = [];
 
 	for (const repo of repos) {
 		if (EXCLUDED_REPOS.has(repo.name)) continue;
 
-		const languages = await fetchLanguages(repo);
 		const codeFrequency = await fetchCodeFrequency(repo);
-
-		if (!languages) continue;
-
-		for (const [lang, bytes] of Object.entries(languages)) {
-			languageStats[lang] = (languageStats[lang] || 0) + bytes;
-		}
 
 		let repoAdditions = 0;
 		let repoDeletions = 0;
@@ -122,30 +97,15 @@ async function getRepoStats() {
 		}
 	}
 
-	const totalBytes = Object.values(languageStats).reduce((a, b) => a + b, 0);
-	const sortedLanguages = Object.entries(languageStats)
-		.sort((a, b) => b[1] - a[1])
-		.map(([language, bytes]) => ({
-			language,
-			percentage: ((bytes / totalBytes) * 100).toFixed(2),
-		}));
-
 	recentUpdates.sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
 
-	return { sortedLanguages, recentUpdates };
+	return { recentUpdates };
 }
 
 async function generateReadme() {
-	const { sortedLanguages, recentUpdates } = await getRepoStats();
+	const { recentUpdates } = await getRepoStats();
 
-	let readmeContent = `**GitHub language stats**\n\n\`\`\`\n`;
-
-	sortedLanguages.forEach(({ language, percentage }) => {
-		const barLength = Math.round((percentage / 100) * 20);
-		const bar = '█'.repeat(barLength).padEnd(20, '░');
-		readmeContent += `${language.padEnd(12)} ${bar}  ${percentage}%\n`;
-	});
-	readmeContent += `\`\`\`\n\n`;
+	let readmeContent = '';
 
 	if (recentUpdates.length > 0) {
 		readmeContent += `**Recent updates in last 6 weeks**\n\n\`\`\`\n`;
