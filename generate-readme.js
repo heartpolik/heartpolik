@@ -43,6 +43,9 @@ async function fetchCodeFrequency(repo) {
 			continue;
 		}
 
+		// 204 No Content: the repository is empty, there is no history to count
+		if (response.status === 204) return null;
+
 		if (!response.ok) {
 			console.warn(`⚠️ Failed to fetch code frequency for ${repo.name} (HTTP ${response.status})`);
 			return null;
