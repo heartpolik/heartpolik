@@ -1,0 +1,47 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cloning repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Installing Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Executing script
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: GITHUB_USERNAME=${{ github.repository_owner }} node generate-readme.js
+
+      - name: Set up Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Check for changes
+        run: |
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "automatic update README.md"
+
+      - name: Push changes using PAT
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/maplemap/maplemap.git
+          git push origin main
