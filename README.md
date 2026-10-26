@@ -1,13 +1,13 @@
 **GitHub language stats**
 
 ```
-C            █████████████████░░░  82.82%
+C            █████████████████░░░  82.78%
 C++          █░░░░░░░░░░░░░░░░░░░  6.68%
-Python       █░░░░░░░░░░░░░░░░░░░  3.05%
-Makefile     █░░░░░░░░░░░░░░░░░░░  2.58%
+Python       █░░░░░░░░░░░░░░░░░░░  3.09%
+Makefile     █░░░░░░░░░░░░░░░░░░░  2.57%
 Assembly     ░░░░░░░░░░░░░░░░░░░░  1.82%
 Java         ░░░░░░░░░░░░░░░░░░░░  0.75%
-JavaScript   ░░░░░░░░░░░░░░░░░░░░  0.62%
+JavaScript   ░░░░░░░░░░░░░░░░░░░░  0.61%
 Go           ░░░░░░░░░░░░░░░░░░░░  0.35%
 TypeScript   ░░░░░░░░░░░░░░░░░░░░  0.33%
 PHP          ░░░░░░░░░░░░░░░░░░░░  0.27%
@@ -39,7 +39,7 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-hardware-pocket-mixer Mon Oct 26 2026, LoC: +3292435 -1756779
-heartpolik           Mon Oct 26 2026, LoC: +495 -117
+hardware-pocket-mixer Mon Oct 26 2026, LoC: +3408509 -1791029
+heartpolik           Mon Oct 26 2026, LoC: +501 -122
 printer-odinforge-idex Thu Oct 15 2026, LoC: +5271 -3551
 ```
