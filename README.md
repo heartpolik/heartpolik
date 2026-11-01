@@ -39,7 +39,6 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-heartpolik           Sat Oct 31 2026, LoC: +552 -173
 hardware-pocket-mixer Thu Oct 29 2026, LoC: +4129153 -2320537
 printer-odinforge-idex Thu Oct 15 2026, LoC: +5271 -3551
 ```
