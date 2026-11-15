@@ -3,7 +3,7 @@
 ```
 C            ████████████████░░░░  80.88%
 C++          █░░░░░░░░░░░░░░░░░░░  6.74%
-Python       █░░░░░░░░░░░░░░░░░░░  3.09%
+Python       █░░░░░░░░░░░░░░░░░░░  3.10%
 Makefile     █░░░░░░░░░░░░░░░░░░░  2.52%
 HTML         ░░░░░░░░░░░░░░░░░░░░  2.14%
 Assembly     ░░░░░░░░░░░░░░░░░░░░  1.78%
@@ -39,9 +39,9 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-heartpolik           Sat Nov 14 2026, LoC: +609 -227
-domofon-card         Sat Nov 14 2026, LoC: +410 -0
-ha-domofon           Sat Nov 14 2026, LoC: +2483 -72
+domofon-card         Sun Nov 15 2026, LoC: +413 -3
+ha-domofon           Sun Nov 15 2026, LoC: +2690 -98
+heartpolik           Sun Nov 15 2026, LoC: +610 -228
 felicity_ha_wireless Fri Nov 13 2026, LoC: +1007 -1
 hardware-pocket-mixer Thu Oct 29 2026, LoC: +4129153 -2320537
 printer-odinforge-idex Thu Oct 15 2026, LoC: +5271 -3551
