@@ -39,9 +39,9 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
+heartpolik           Sat Nov 14 2026, LoC: +609 -227
 domofon-card         Sat Nov 14 2026, LoC: +410 -0
 ha-domofon           Sat Nov 14 2026, LoC: +2483 -72
-heartpolik           Sat Nov 14 2026, LoC: +604 -224
 felicity_ha_wireless Fri Nov 13 2026, LoC: +1007 -1
 hardware-pocket-mixer Thu Oct 29 2026, LoC: +4129153 -2320537
 printer-odinforge-idex Thu Oct 15 2026, LoC: +5271 -3551
