@@ -1,14 +1,14 @@
 **GitHub language stats**
 
 ```
-C            ████████████████░░░░  80.88%
-C++          █░░░░░░░░░░░░░░░░░░░  6.74%
-Python       █░░░░░░░░░░░░░░░░░░░  3.10%
-Makefile     █░░░░░░░░░░░░░░░░░░░  2.52%
+C            ████████████████░░░░  80.87%
+C++          █░░░░░░░░░░░░░░░░░░░  6.73%
+Python       █░░░░░░░░░░░░░░░░░░░  3.11%
+Makefile     █░░░░░░░░░░░░░░░░░░░  2.51%
 HTML         ░░░░░░░░░░░░░░░░░░░░  2.14%
 Assembly     ░░░░░░░░░░░░░░░░░░░░  1.78%
 Java         ░░░░░░░░░░░░░░░░░░░░  0.73%
-JavaScript   ░░░░░░░░░░░░░░░░░░░░  0.60%
+JavaScript   ░░░░░░░░░░░░░░░░░░░░  0.61%
 Go           ░░░░░░░░░░░░░░░░░░░░  0.34%
 TypeScript   ░░░░░░░░░░░░░░░░░░░░  0.32%
 PHP          ░░░░░░░░░░░░░░░░░░░░  0.27%
@@ -39,9 +39,11 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-heartpolik           Tue Nov 17 2026, LoC: +620 -238
+zb-remote            Tue Nov 17 2026, LoC: +2806 -0
+heartpolik           Tue Nov 17 2026, LoC: +621 -240
 domofon-card         Sun Nov 15 2026, LoC: +413 -3
 ha-domofon           Sun Nov 15 2026, LoC: +2690 -98
 felicity_ha_wireless Fri Nov 13 2026, LoC: +1007 -1
 hardware-pocket-mixer Thu Oct 29 2026, LoC: +4129153 -2320537
+printer-odinforge-idex Thu Oct 15 2026, LoC: +5271 -3551
 ```
