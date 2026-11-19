@@ -42,7 +42,6 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 ```
 zmk-lilly            Wed Nov 18 2026, LoC: +1953 -338
 zmk                  Wed Nov 18 2026, LoC: +131 -41
-heartpolik           Wed Nov 18 2026, LoC: +630 -247
 zb-remote            Tue Nov 17 2026, LoC: +2806 -0
 domofon-card         Sun Nov 15 2026, LoC: +413 -3
 ha-domofon           Sun Nov 15 2026, LoC: +2690 -98
