@@ -40,7 +40,8 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-zmk-lilly            Wed Nov 18 2026, LoC: +1953 -338
+zmk-lilly            Thu Nov 19 2026, LoC: +1964 -341
+heartpolik           Thu Nov 19 2026, LoC: +645 -260
 zmk                  Wed Nov 18 2026, LoC: +131 -41
 zb-remote            Tue Nov 17 2026, LoC: +2806 -0
 domofon-card         Sun Nov 15 2026, LoC: +413 -3
