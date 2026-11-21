@@ -2,7 +2,7 @@
 
 ```
 C            ████████████████░░░░  81.09%
-C++          █░░░░░░░░░░░░░░░░░░░  6.63%
+C++          █░░░░░░░░░░░░░░░░░░░  6.62%
 Python       █░░░░░░░░░░░░░░░░░░░  3.09%
 Makefile     ░░░░░░░░░░░░░░░░░░░░  2.48%
 HTML         ░░░░░░░░░░░░░░░░░░░░  2.11%
@@ -40,7 +40,7 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-heartpolik           Fri Nov 20 2026, LoC: +651 -266
+heartpolik           Fri Nov 20 2026, LoC: +653 -267
 zmk-lilly            Thu Nov 19 2026, LoC: +2263 -375
 zmk                  Wed Nov 18 2026, LoC: +131 -41
 zb-remote            Tue Nov 17 2026, LoC: +2806 -0
