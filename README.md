@@ -40,11 +40,12 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-heartpolik           Sun Nov 22 2026, LoC: +205 -198
+zb-remote            Sun Nov 22 2026, LoC: +3410 -180
+heartpolik           Sun Nov 22 2026, LoC: +206 -200
 zmk-lilly            Thu Nov 19 2026, LoC: +2263 -375
 zmk                  Wed Nov 18 2026, LoC: +131 -41
-zb-remote            Tue Nov 17 2026, LoC: +2806 -0
 domofon-card         Sun Nov 15 2026, LoC: +413 -3
 ha-domofon           Sun Nov 15 2026, LoC: +2690 -98
+felicity_ha_wireless Fri Nov 13 2026, LoC: +1007 -1
 hardware-pocket-mixer Thu Oct 29 2026, LoC: +4129153 -2320537
 ```
