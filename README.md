@@ -41,7 +41,6 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 
 ```
 zb-remote            Sun Nov 22 2026, LoC: +3410 -180
-heartpolik           Sun Nov 22 2026, LoC: +206 -200
 zmk-lilly            Thu Nov 19 2026, LoC: +2263 -375
 zmk                  Wed Nov 18 2026, LoC: +131 -41
 domofon-card         Sun Nov 15 2026, LoC: +413 -3
