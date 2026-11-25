@@ -1,10 +1,10 @@
 **GitHub language stats**
 
 ```
-C            ████████████████░░░░  80.81%
-C++          █░░░░░░░░░░░░░░░░░░░  6.90%
+C            ████████████████░░░░  80.64%
+C++          █░░░░░░░░░░░░░░░░░░░  7.09%
 Python       █░░░░░░░░░░░░░░░░░░░  3.08%
-Makefile     ░░░░░░░░░░░░░░░░░░░░  2.47%
+Makefile     ░░░░░░░░░░░░░░░░░░░░  2.46%
 HTML         ░░░░░░░░░░░░░░░░░░░░  2.10%
 Assembly     ░░░░░░░░░░░░░░░░░░░░  1.74%
 Java         ░░░░░░░░░░░░░░░░░░░░  0.72%
@@ -15,7 +15,7 @@ PHP          ░░░░░░░░░░░░░░░░░░░░  0.26%
 CSS          ░░░░░░░░░░░░░░░░░░░░  0.18%
 Lua          ░░░░░░░░░░░░░░░░░░░░  0.15%
 Shell        ░░░░░░░░░░░░░░░░░░░░  0.12%
-CMake        ░░░░░░░░░░░░░░░░░░░░  0.08%
+CMake        ░░░░░░░░░░░░░░░░░░░░  0.09%
 CoffeeScript ░░░░░░░░░░░░░░░░░░░░  0.04%
 Roff         ░░░░░░░░░░░░░░░░░░░░  0.03%
 Nix          ░░░░░░░░░░░░░░░░░░░░  0.01%
@@ -40,10 +40,12 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
-cardputer-zero-tools Tue Nov 24 2026, LoC: +10312 -7982
+cardputer-zero-tools Tue Nov 24 2026, LoC: +20716 -12539
+heartpolik           Tue Nov 24 2026, LoC: +223 -217
 zb-remote            Mon Nov 23 2026, LoC: +142939 -310
 zmk-lilly            Thu Nov 19 2026, LoC: +2263 -375
 zmk                  Wed Nov 18 2026, LoC: +131 -41
+domofon-card         Sun Nov 15 2026, LoC: +413 -3
 ha-domofon           Sun Nov 15 2026, LoC: +2690 -98
 felicity_ha_wireless Fri Nov 13 2026, LoC: +1007 -1
 hardware-pocket-mixer Thu Oct 29 2026, LoC: +4129153 -2320537
