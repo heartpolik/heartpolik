@@ -40,10 +40,10 @@ Batchfile    ░░░░░░░░░░░░░░░░░░░░  0.00%
 **Recent updates in last 6 weeks**
 
 ```
+heartpolik           Wed Nov 25 2026, LoC: +247 -237
 cz-diskputer         Wed Nov 25 2026, LoC: +3374 -129
 packages             Wed Nov 25 2026, LoC: +14861 -3646
 cardputer-zero-tools Wed Nov 25 2026, LoC: +25761 -12785
-heartpolik           Wed Nov 25 2026, LoC: +238 -230
 zb-remote            Mon Nov 23 2026, LoC: +142939 -310
 zmk-lilly            Thu Nov 19 2026, LoC: +2263 -375
 zmk                  Wed Nov 18 2026, LoC: +131 -41
